@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Location Tracker</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles-mobile.css" media="screen and (max-device-width: 480px)">
+<link rel="stylesheet" href="css/location.css">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script> <!-- We were not given restrictions on JavaScript usage, so we are using one method(only one!) from the jQuery library. -->
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyBDfRuIECMowVSloL62zxc2Op1xNmu9MvI&sensor=false"></script>
+<script src="js/main.js"></script>
+<script src="js/location-tracker.js"></script>
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+</head>
+<body onload="locationInit()">
+<div id = "header">
+
+<a href="index.html"><img src="images/logo.png" class=logo alt="Our website logo!"></a>
+
+<!--Empty div for the top header, will be populated by JavaScript-->
+<div id = "headerText">
+<p class=coloredCenteredText><b>The JavaScript files did not load properly. Do you have your permissions set correctly? </b></p>
+</div>
+</div>
+<br>
+<div id=map></div>
+<h2 class=coloredCenteredText>Post your location!</h2>
+<select class=addLoc id=selectedLocation name="where">
+	<option value="myLatLng">TRUE Location</option>
+	<option value="MUNCenter">MUN Center</option>
+	<option value="VillageMall">Village Mall</option>
+	<option value="AvalonMall">Avalon Mall</option>
+	<option value="Downtown">Downtown</option>
+</select><br><br>
+<input class=addSub type="Submit" onclick="postLocation();">
+<br><br>
+<div class = block>
+<!--Empty div for the table, will be populated by JavaScript-->
+<div id = tableText>
+<table id=locationTable style=width:100%>
+</table>
+</div>
+</div>
+<div id=footer>
+<p class=footer>This legal text is copyrighted by Josh Forward, and Canberk Karabudak. If one shall copy it without explicit written permission, charges will be laid to the full extent of the Canadian Law.<br>
+Cloud Tracker v4.0, <a class="coloredText" href="changelog.html">changelog</a>. If you are having problems, try <a class="coloredText" href="index.html?clear-local-storage">clearing your local storage</a>! Also, if you would like to stop the website from tracking your location when in profile pages, <a class="coloredText" onclick="disableLocationUpdate()">click here</a>!</p>
+</div>
+</body>
+</html>

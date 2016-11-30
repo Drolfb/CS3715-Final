@@ -1,0 +1,27 @@
+body {
+	background-image: url("../images/background-dark.jpg");
+}
+
+
+#UserInfo {
+	color: #dff3f9;
+}
+#top {
+	color: #dff3f9;
+}
+.block {
+	background: #bfceff;
+	opacity: 0.75;
+}
+.coloredText {
+	color: #dff3f9;
+}
+.coloredCenteredText {
+	color: #dff3f9;
+}
+.friend {
+	background: #bfceff;
+}
+p.footer {
+	color: white;
+}

@@ -1,0 +1,44 @@
+body {
+	background-image: url("../images/background-light.png");
+	font-family: Georgia, serif;
+}
+#content {
+	margin-left: 20%
+}
+#feed {
+	margin-top: 0;
+	margin-left: 20%;
+}
+#friendsList {
+	width: 24%;
+}
+#UserInfo {
+	color: #484951;
+}
+.block {
+	margin-left: 10%;
+	margin-right: 10%;
+	background: #e6efff;
+	opacity: 0.65;
+}
+.coloredText {
+	color: #484951;
+}
+.coloredCenteredText {
+	color: #484951;
+}
+.friend {
+	background: #e6efff;
+	opacity: 0.65;
+}
+.logo {
+	width: 24%;
+}
+.resize{
+	width: 16%;
+	height: 16%
+}
+p.footer {
+	color: black;
+	font-size: 45%;
+}

@@ -1,0 +1,28 @@
+body {
+	font-size: 105%;
+}
+#feed {
+	margin-top: 3%;
+	margin-left: 10%;
+}
+#textField {
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	resize: none;
+}
+#textArea {
+	text-align:center;
+}
+.fullName {
+	color: #dff3f9;
+}
+.posterName {
+	padding: 8px;
+	font-size: 120%;
+}
+.profile {
+	font-size: 140%;
+	padding-left: 65px;
+}
+

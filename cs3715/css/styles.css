@@ -1,0 +1,96 @@
+body {
+	background-image: url("../images/background-dark.jpg");
+	font-size: 105%;
+} 
+#UserInfo {
+	text-align: right;
+	font-size: 200%;
+	padding: 10px;
+	margin-right: 16%;
+	color: #dff3f9;
+}
+#header {
+	clear: top;
+	float: center;
+	height: 175px;
+	margin-bottom: 4%;
+}
+#friendsList {
+	width: 16%;
+	float: left;
+	clear: left;
+	text-align: center;
+}
+#footer {
+	clear: left;
+	text-align: center;
+	padding: 1%;
+	font-size: 70%;
+	color: white;
+}
+#content {
+	margin-left: 10%
+}
+.coloredCenteredText {
+	color: #dff3f9;
+	text-decoration: none;
+	text-align: center;
+}
+.coloredText {
+	color: #dff3f9;
+	text-decoration: none;
+}
+.smallerText{
+	font-size: 75%;
+	color: blue;
+}
+.blackText {
+	color: black;
+}
+.block {
+	margin-left: 10%;
+	margin-right: 5%;
+	border: 1px solid black;
+	padding: 5px;
+	background: #bfceff;
+	opacity: 0.75;
+}
+.friend {
+	border: 2px solid black;
+	padding: 4%;
+	background: #bfceff;
+	opacity: 0.65;
+}
+.friendLink {
+	color: black;
+	font-size: 125%;
+	text-decoration: none; /* this is to get rid of that annoying line under the link */
+}
+.friendIcon{
+	width: 40%;
+	height: 40%;
+}
+#headerText {
+	text-align: left;
+	float: center;
+	padding-top: 0.5%;
+}
+.realfriend {
+	border: 2px solid black;
+	padding: 4%;
+	background: #99A5CC;
+	opacity: 0.65;
+}
+.resize{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin-left: 10%;
+	padding-right: 2%;
+}
+.logo {
+	float: left;
+	clear: left;
+	margin-bottom: 2%;
+	width: 16%;
+}

@@ -1,0 +1,25 @@
+body {
+	background-image: url("../images/background-light.png");
+}
+#UserInfo {
+	color: #484951;
+}
+#top {
+	color: #484951;
+}
+.block {
+	background: #e6efff;
+	opacity: 0.65;
+}
+.coloredText {
+	color: #484951;
+}
+.coloredCenteredText {
+	color: #484951;
+}
+.friend {
+	background: #e6efff;
+}
+p.footer {
+	color: black;
+}

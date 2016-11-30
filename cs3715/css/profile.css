@@ -1,0 +1,12 @@
+body {
+	font-size: 105%;
+}
+#friendsList {
+	float: left;
+	text-align: center;
+	clear: left;
+}
+.friendLink {
+	color: black;
+	text-decoration: none; /* this is to get rid of that annoying line under the link */
+}

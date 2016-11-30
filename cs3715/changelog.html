@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cloud Tracker</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/styles-mobile.css" media="screen and (max-device-width: 480px)">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script> <!-- We were not given restrictions on JavaScript usage, so we are using one method(only one!) from the jQuery library. -->
+<script src="js/main.js"></script>
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+</head>
+<body onload="changelogInit()">
+
+<!--Code for the Personal Info at the top of the page-->
+<div id = "header">
+<a href="index.html"><img src="images/logo.png" class=logo alt="Our website logo!"></a>
+
+<!--Empty div for the top header, will be populated by JavaScript-->
+<div id = "headerText">
+<p class=coloredCenteredText><b>The JavaScript files did not load properly. Do you have your permissions set correctly? </b></p>
+</div>
+</div>
+
+<!--Empty div for the friends list, will be populated by JavaScript-->
+<div id = "friendsList">
+</div>
+
+<div id = "feed"><br>
+<div class = "block">
+<b class = "posterName">Cloud Tracker v4.0</b>
+	<ul>
+		<li>The whole site is live now! Now other people can see your posts, but please don't flood our precious social network with Justin Bieber lyrics.</li>
+		<li>Locations are now automatically posted when you visit someone's profile(including your own). To disable this, see the legal text!</li>
+		<li>Obviously, bug fixes and text correction.</li>
+	</ul>
+</div><br>
+<div class = "block">
+<b class = "posterName">Cloud Tracker v3.1</b>
+	<ul>
+		<li>A changelog is added!</li>
+		<li>Profiles are now editable, so you can lie about your age a little bit better!</li>
+		<li>When editing a post on the home page, the browser now automatically scrolls to where the post is. Hopefully you won't get carpal tunnel from using our site anymore!</li>
+		<li>Fixed a bug where newlines were not appropriately read.</li>
+		<li>Your theme preference is now stored between page refreshes. Unfortunately, in order to add this we were forced to initiate a full wipe on LocalStorage.</li>
+		<li>In case you are having errors, now you can safely clear your local storage! Just add a "?clear-local-storage" to your URL in the main page, or simply click the link at the bottom of the page!</li>
+	</ul>
+</div><br>
+
+<div class = "block">
+<b class = "posterName">Cloud Tracker v3.0</b>
+	<ul>
+		<li>The whole site is dynamic now! You can add/remove friends, create posts, or edit them as you wish! Of course we know that you'll be spamming song lyrics, so thankfully your posts are only stored in your local storage. Nobody other than you can see your posts.</li>
+		<li>You can now join or leave groups, in case you did not like being in the "StAr WaRs RoCkS!1!!!!1!!!" group anymore.</li>
+		<li>Locations are added. Now your friends and your friendly criminal can always see where you are!</li>
+	</ul>
+</div><br>
+
+<div class = "block">
+<b class = "posterName">Cloud Tracker v2.0</b>
+	<ul>
+		<li>Mobile support added, we know you're glued to your phone screen. You just can't do without Cloud Tracker, can you...</li>
+		<li>Mobile users get a totally different look on the website! We are planning to allow users to theme the site as they wish, but it's not done yet. Maybe when we're allowed to use JavaScript?</li>
+	</ul>
+</div><br>
+
+<div class = "block">
+<b class = "posterName">Cloud Tracker v1.0</b>
+	<ul>
+		<li>Initial release. Don't expect very much, this is the first assignment!</li>
+	</ul>
+</div>
+</div>
+
+<div id=footer>
+<p class=footer>This legal text is copyrighted by Josh Forward, and Canberk Karabudak. If one shall copy it without explicit written permission, charges will be laid to the full extent of the Canadian Law.<br>
+Cloud Tracker v4.0, <a class="coloredText" href="changelog.html">changelog</a>. If you are having problems, try <a class="coloredText" href="index.html?clear-local-storage">clearing your local storage</a>! Also, if you would like to stop the website from tracking your location when in profile pages, <a class="coloredText" onclick="disableLocationUpdate()">click here</a>!</p>
+</div>
+
+</body>
+</html>
